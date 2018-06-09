@@ -1,0 +1,106 @@
+
+body{
+	 background: white;
+	 position: relative;
+}
+h1 {
+	font-size: 25px;
+	
+}
+p, li{
+   font-size: 16px;
+   font-weight: 20px;
+   line-height: 15px;
+   letter-spacing:5px;
+   font-family: 'Raleway', sans-serif;
+
+
+}
+.header{
+	position:relative;
+	width: 100%;
+	height: 100px;
+	background: white;
+}
+.nav{
+	position:relative;
+	width: 100%;
+	height: 50px;
+	background:white;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+.section{
+	width: 100%;
+	height: 900px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	background-attachment: fixed;
+	background-image: url("https://images6.alphacoders.com/368/thumb-1920-368992.jpg");
+
+}
+.article{
+	top: 10px;
+	left: 10px;
+	width: 400px;
+	height:800px;
+	padding: 15px;
+	 background: linear-gradient(to right, #33ccff 0%, #ff99cc 100%);
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2); 
+}
+.aside{
+	position:absolute;
+	top: 150px;
+	left: 640px;
+	width: 300px;
+	height:800px;
+	padding: 15px;
+	overflow: scroll;
+	
+}
+
+.footer{
+	bottom: 0px;
+	position: absolute;
+	width: 100%;
+	height: 70px;
+	background: black;
+	color:white;
+	border: solid 0.5px white;
+	text-align: center;
+}
+
+#bottom_form1{
+	width: 300px;
+	height: 300px;
+	padding: 15px;
+}
+.form_area{
+	text-align:right;
+	
+}
+
+	
